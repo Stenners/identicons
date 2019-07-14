@@ -1,0 +1,26 @@
+{
+  "name": "identicons",
+  "version": "1.0.0",
+  "description": "An implementation of GitHub style identicons",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stenners/identicons.git"
+  },
+  "author": "Stenners",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stenners/identicons/issues"
+  },
+  "homepage": "https://github.com/Stenners/identicons#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}
